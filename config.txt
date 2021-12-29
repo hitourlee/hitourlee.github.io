@@ -1,4 +1,4 @@
 {
-"a":"b",
-"c":"d"
+"qrHeaderUrl":"http://98plc.com:8080?f=",
+"errorUrl":"http://98plc.com/NFCProductInfo.aspx"
 }
