@@ -1,5 +1,5 @@
 {
 "qrHeaderUrl":"http://98plc.com:8080?f=",
 "qrSearchUrl":"http://98plc.com:8080/SearchCodePage.aspx?f=",
-"errorUrl":"http://98plc.com/NFCProductInfo.aspx"
+"errorUrl":"https://98plc.com/NFCProductInfo.aspx"
 }
