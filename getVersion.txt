@@ -1,5 +1,5 @@
 {
   "url":"https://hitourlee.github.io/ldnfc.apk",
-  "versionCode":2,
-  "updateMessage":"1. 修复问题 \n2. 更新说明"
+  "versionCode":1,
+  "updateMessage":"1. 修复问题 "
 }
