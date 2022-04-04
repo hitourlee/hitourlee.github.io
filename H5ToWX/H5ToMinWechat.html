@@ -55,7 +55,7 @@
     return obj;
   }
   var querys = getQueryVariable();
-  var path = querys.path ? decodeURIComponent(querys.path) : 'pages/home/home'    //  replace  需要跳转的路径
+  var path = querys.path ? decodeURIComponent(querys.path) : '/pages/followerDetail/followerDetail'    //  replace  需要跳转的路径
   var username = ''// replace username小程序原始id
   //  replace username
   $('#wechat-web-container').append(`
@@ -165,7 +165,7 @@
     if (onBeforeJump) {
       onBeforeJump()
     }
-    location.href = 'weixin://dl/business/?t=*****' //  replace  生成小程序URL Scheme 用于h5跳转
+    location.href = 'weixin://dl/business/?t=ycFo70xgaLk' //  replace  生成小程序URL Scheme 用于h5跳转
   }
 </script>
 <style>
