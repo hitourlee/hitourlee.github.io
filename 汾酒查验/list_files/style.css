@@ -1,0 +1,75 @@
+/* fail.html、failed.html，查询失败页面 */
+#fail .main{width:100%; height:100%;}
+#fail .main-msgBox{width:3rem; height:2rem; border-radius: 6px; position: absolute; left: 50%; margin-left: -1.5rem; top: 3rem; text-align: center; background:rgba(0,0,0,.7);font-size:.32rem;color:#fff;}
+#fail .main-msgBox img{margin: .3rem auto;}
+#fail .main-tips{font-size: .36rem;color:#444;text-align:center;margin-top:5.8rem;}
+
+
+.zy_media{ width: 5.8rem; height: 3rem; margin-bottom: .3rem;}
+/* 溯源信息-基础信息、物流信息 */
+#trace{width:6.4rem; margin:0 auto; position: absolute;top:0; left:0;overflow-x: hidden;}
+#trace .success{width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-left: .33rem; padding-right: .30rem;}
+/* 头部 */
+#trace .success #top{margin-top: .3rem; margin-bottom: .2rem; text-align: center;}
+#trace .success #top .top-tips{font-size: .36rem; color: #777;}
+/* 产品信息 */
+#trace .success #proInfo{width: 100%; height: 3.5rem;}
+#trace .success #proInfo .pro-left{float: left;width: 3.46rem;}
+#trace .success #proInfo .pro-left div{ font-size: .21rem; color: #2C2C2C; line-height: .32rem; padding-top: .1rem; padding-left: 1.2rem; position: relative; }
+#trace .success #proInfo .pro-left div i{ position: absolute; left: .08rem; font-style: normal; }
+#trace .success #proInfo .pro-left div em{ display: inline-block; }
+#trace .success #proInfo .pro-left .pro-title{width: 100%;height: .33rem; font-size: .24rem;font-weight: 600;color: #2c2c2c;line-height: .33rem;padding-left: .4rem;
+	background: url(../imgs/proInfo.png) no-repeat;-webkit-background-size: .33rem .33rem;background-size: .33rem .33rem;}
+#trace .success #proInfo .pro-left .pro-title span{ font-size: .14rem; font-weight: 100; }
+
+#trace .success #proInfo .pro-right{ float:left; width: 2.3rem; height: 3.1rem; margin-top: .1rem; 	
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	border: solid 1px #faa03f; text-align: center; line-height: 3.1rem; }
+#trace .success #proInfo .pro-right img{ width: 2.24rem; height: auto; vertical-align: middle; }
+/* 物流信息、公司信息 */
+#trace .success #mainInfo h2{ width: 2.7rem; height: .52rem;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	font-size: .21rem; font-weight: 600; color: #FFFFFF; font-weight: 600; line-height: .52rem;
+	padding-left: .65rem; margin-left: -1px; margin-top: -5px; border-top-left-radius: 5px;	border-top-right-radius: 5px;
+}
+#trace .success #mainInfo .logistics, 
+#trace .success #mainInfo .company{ float: left;
+	width: 2.65rem; min-height: 2.4rem; border: solid 1px #e3e0e1; border-top: none; margin-top: .3rem; padding-bottom: .2rem;
+}
+#trace .success #mainInfo .logistics{ margin-right: .39rem; }
+#trace .success #mainInfo .logistics h2.logi-title{ background: #faa03f url(../imgs/logiInfo.png) no-repeat .22rem center; -webkit-background-size: .35rem .35rem; background-size: .35rem .35rem; }
+#trace .success #mainInfo .logistics div{ font-size: .18rem; color: #6b6767; margin-top: .28rem; margin-left: .12rem; }
+    /* 公司信息 */
+#trace .success #mainInfo .company h2.company-title, 
+#trace .success #mainInfo .rx-company h2.company-title{ background: #faa03f url(../imgs/compInfo.png) no-repeat .22rem center; -webkit-background-size: .35rem .35rem; background-size: .35rem .35rem; }
+#trace .success #mainInfo .company p,
+#trace .success #mainInfo .rx-company p{ width: 2.53rem; font-size: .12rem; color: #6b6767; margin-top: .16rem; margin-left: .12rem; overflow: hidden; }
+#trace .success #mainInfo .company p.company-name,
+#trace .success #mainInfo .rx-company p.company-name{ font-size: .18rem; margin-top: .24rem; font-weight: 600;}
+    /* 防伪溯源-基础信息【物流信息+logo】 */
+#trace .success #mainInfo .rx-company{position: relative;width: 100%;  border: solid 1px #e3e0e1; width: 100%;border-top: none;margin-top: .3rem;padding-bottom: .2rem;}
+#trace .success #mainInfo .rx-company h2, #trace .success #mainInfo .rx-company p{width: auto;}
+#trace .success #mainInfo .rx-company img{ 
+  display: block; width: 2.6rem; position: absolute; top:.6rem; right:.28rem;
+}
+@media screen and (max-width: 300px) {
+  #trace .success #mainInfo .rx-company img{ display: none;}
+}
+/* 企业简介 */
+#trace .success #enterprise{ width: 100%; border: solid 1px #b6b4b3; -webkit-border-radius: 5px; border-radius: 5px; margin-top: .36rem; margin-bottom: .36rem; }
+#trace .success #enterprise h1.enter-title{ width: 100%; height: .64rem; padding-left: .52rem;
+	font-size: .24rem; font-weight: 600; color: #2c2c2c; line-height: .64rem;
+ 	background: url(../imgs/enterInfo.png) no-repeat .1rem center; -webkit-background-size: .38rem .5rem; background-size: .38rem .5rem;
+}
+#trace .success #enterprise h1.enter-title span{ font-size: .14rem; font-weight: 100; }
+#trace .success #enterprise p{ font-size: .18rem; color: #656565; text-indent: .4rem; margin: 0 .28rem .2rem; line-height: .4rem; }
+/* 关注公众号 */
+#trace .success #att{ width: 100%; height: 1.7rem; display: flex; }
+#trace .success #att div{	flex: 1; }
+#trace .success #att div.att-left{ 	width: 100%; height: 100%; padding: .05rem .1rem;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	background: url(../imgs/attbg.png) no-repeat; -webkit-background-size: 2.1rem 1.7rem; background-size: 2.1rem 1.7rem;
+}
+#trace .success #att div.att-left img{ flex: 1.2; width: 80%; height: 80%; margin-top: .15rem; }
+#trace .success #att div.att-center img{ padding-left: 5%; width: 75%; height: 75%; margin-top: -.1rem; }
+#trace .success #att div.att-right{ font-size: .26rem; color: #d0021b; margin-top: .26rem; }

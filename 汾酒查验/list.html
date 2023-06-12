@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://p.tctrace.techsun.com.cn/cosmetics_m/trace/list.html -->
+<html lang="en" style="font-size:237.34375px"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./list_files/public.css" type="text/css" media="all">
+  <link rel="stylesheet" href="./list_files/style.css" type="text/css" media="all">
+  <title>一键验真伪</title>
+  <script>
+    new function (){
+      var _self = this;
+      _self.width = 640;//设置默认最大宽度
+      _self.fontSize = 100;//默认字体大小
+      _self.widthProportion = function(){var p = (document.body&&document.body.clientWidth||document.getElementsByTagName("html")[0].offsetWidth)/_self.width;return p<0.5?0.5:p;};
+      _self.changePage = function(){
+          document.getElementsByTagName("html")[0].setAttribute("style","font-size:"+_self.widthProportion()*_self.fontSize+"px");
+      }
+      _self.changePage();
+      window.addEventListener('resize',function(){_self.changePage();},false);
+    };
+  </script>
+</head>
+<body>
+  <div id="trace">
+    <div class="success">
+      <div id="top">
+        <p class="top-tips">恭喜您，您查找的商品为正品！</p>
+      </div>
+    <!--产品信息-->
+    <div id="proInfo">
+      <div class="pro-left clearfix">
+        <h1 class="pro-title">产品信息&nbsp;&nbsp;&nbsp;<span>Product&nbsp;Information</span></h1>
+        <!-- <div class="pro-kind"><i>产品类别</i><em>防晒</em></div> -->
+        <div class="pro-name"><i>品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</i><em>汾酒（青花25）</em></div>
+        <div class="pro-kind"><i>度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数</i><em>42%vol</em></div>
+        <div class="volume"><i>容&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量</i><em>475ml</em></div>
+        <div class="pro-time"><i>生产日期</i><em>2023.04.21</em></div>
+        <div class="degree"><i>原&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;料</i><em>水、高粱、大麦、豌豆</em></div>
+        <div class="pro-number"><i>产&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地</i><em>山西汾阳市</em></div>
+      </div>
+      <div class="pro-right"><img src="./list_files/2.jpg"></div>
+    </div>
+
+    <!-- 物流信息、公司信息 -->
+    <div id="mainInfo" class="clearfix">
+      <div class="logistics" style="height: 625.25px;">
+        <h2 class="logi-title">物流信息</h2>
+        <div class="logi-time">出库时间：<em>2023.05.05</em></div>
+        <div class="logi-addr">出库单位：<em>山西杏花村汾酒厂股份有限公司</em></div>
+        <div class="logi-store">经销商名称:<em>上海经销商</em></div>
+      </div>
+      
+      <div class="company clearfix">
+        <h2 class="company-title">公司信息</h2>
+        <p class="company-name">上海天臣微纳米科技股份有限公司</p>
+        <p>公司地址：山西汾阳杏花村</p>
+        <p>公司名称：山西杏花村汾酒集团有限责任公司</p>
+        <p>服务电话：400-668-9999</p>
+        <p>公司网址：https://www.fenjiu.com.cn/</p>
+      </div>
+    </div>
+
+    <!--企业简介-->
+    <div id="enterprise">
+      <h1 class="enter-title">企业简介&nbsp;&nbsp;&nbsp;&nbsp;<span>Enterprise&nbsp;Profile</span></h1>
+      <!-- <h1 class="enter-title">企业简介&nbsp;&nbsp;&nbsp;&nbsp;<span>Product&nbsp;Efficacy</span></h1> -->
+      <p> 山西杏花村汾酒集团有限责任公司是以生产销售汾酒、竹叶青酒和杏花村酒为主，集白酒、大健康产业、产业链、文化旅游、产业基金及白酒机加工于一体的省管重要骨干企业，是国家工信部认定的“全国工业品牌培育示范企业”、国务院国资委“国企改革双百行动”入选企业。</p>
+    </div>
+
+  </div>    
+  </div>
+
+
+<script src="./list_files/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+      var compHeight=$(".company").height();
+      $(".logistics").css("height",compHeight);
+  })
+</script></body></html>
