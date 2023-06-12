@@ -43,7 +43,7 @@
 #trace .success #mainInfo .company h2.company-title, 
 #trace .success #mainInfo .rx-company h2.company-title{ background: #faa03f url(../imgs/compInfo.png) no-repeat .22rem center; -webkit-background-size: .35rem .35rem; background-size: .35rem .35rem; }
 #trace .success #mainInfo .company p,
-#trace .success #mainInfo .rx-company p{ width: 2.53rem; font-size: .12rem; color: #6b6767; margin-top: .16rem; margin-left: .12rem; overflow: hidden; }
+#trace .success #mainInfo .rx-company p{ width: 2.53rem; font-size: .18rem; color: #6b6767; margin-top: .16rem; margin-left: .12rem; overflow: hidden; }
 #trace .success #mainInfo .company p.company-name,
 #trace .success #mainInfo .rx-company p.company-name{ font-size: .18rem; margin-top: .24rem; font-weight: 600;}
     /* 防伪溯源-基础信息【物流信息+logo】 */
